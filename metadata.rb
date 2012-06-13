@@ -8,8 +8,10 @@ version          "0.0.1"
 %w/ubuntu/.each { |os| supports os }
 
 depends          "libcomerr", ">= 0.0.1"
+depends          "libgssapi-krb5", ">= 0.0.1"
 depends          "libkrb5", ">= 0.0.1"
 depends          "libpam", ">= 0.0.1"
 depends          "libselinux", ">= 0.0.1"
+depends          "libssl", ">= 0.0.1"
 depends          "libwrap", ">= 0.0.1"
 depends          "openssh-client", ">= 0.0.1"
